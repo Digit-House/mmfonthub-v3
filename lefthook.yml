@@ -1,0 +1,8 @@
+# lefthook.yml
+
+colors:
+  cyan: 14
+  gray: 244
+  green: "#32CD32"
+  red: "#FF1493"
+  yellow: "#F0E68C"

@@ -6,3 +6,13 @@ colors:
   green: "#32CD32"
   red: "#FF1493"
   yellow: "#F0E68C"
+
+pre-commit:
+  commands:
+    lint:
+      run: yarn lint
+
+test:
+  commands:
+    js-test:
+      run: yarn test

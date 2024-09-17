@@ -1,5 +1,7 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+#git add .
+ See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+.lefthook
 # dependencies
 /node_modules
 /.pnp
@@ -29,8 +31,62 @@ yarn-error.log*
 .env*.local
 
 # vercel
-.vercel
+.verl
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+█/Users/konyan/Dev/STARTUP/MMFONTSHUB/v2/mmfonthub-v2  █3█                                                                                                               nvim  startup 󰃰 2024-09-17   
+ Neo-tree                                2     lefthook.yml   ▏ 󰌞 commitlint.config…                  │        yarn.lock
+  ~/Dev/STARTUP/MMFONTSHUB/v2/mmfonthub│  18   # lefthook.yml                                            │
+   .git                               │  17                                                             │no changes added to commit (use "git add" and/or "git commit -a")
+   .lefthook                          │  16   colors:                                                   │❯ g add .
+     pre-╭─────────────────────────────────── Find Files ───────────────────────────────────╮           │❯ g st
+   .lefth│ gtgo    ile>..." to unstage)
+   compon│                                                                                  │           │        new file:   .lintstagedrc
+   node_m│                                                                                  │           │        modified:   app/page.tsx
+   utils │                                                                                  │           │        new file:   biome.json
+   󰊢 .gitig│                                                                                  │           │        new file:   commitlint.config.js
+   * .lints│                                                                                  │           │        new file:   components/header.tsx
+    README│                                                                                  │           │        new file:   lefthook.yml
+   󰘦 biome.│                                                                                  │           │        modified:   package.json
+   󰌞 commit│                                                                                  │           │        new file:   yarn.lock
+    leftho│                                                                                  │           │
+   󰛦 next-e│                                                                                  │           │Changes not staged for commit:
+   󰌞 next.c│                                                                                  │           │  (use "git add <file>..." to update what will be committed)
+   󰘦 packag│                                                                                  │           │  (use "git restore <file>..." to discard changes in working directory)
+    packag│                                                                                  │           │        modified:   package.json
+   󰌞 postcs│                                                                                  │           │
+   󰛦 tailwi│                                                                                  │           │❯ g add .
+    tsconf│                                                                                  │           │❯ g commit -m 'add biome'
+    yarn.l│                                                                                  │           │[main 1b865bb] add biome
+           │                                                                                  │           │ 8 files changed, 2340 insertions(+), 98 deletions(-)
+           │                                                                                  │           │ create mode 100644 .lintstagedrc
+           │                                                                                  │           │ create mode 100644 biome.json
+           │                                                                                  │           │ create mode 100644 commitlint.config.js
+           │                                                                                  │           │ create mode 100644 components/header.tsx
+           │                                                                                  │           │ create mode 100644 lefthook.yml
+           │                                                                                  │           │ create mode 100644 yarn.lock
+           │                                                                                  │           │❯ g st
+           │                                                                                  │           │On branch main
+           │                                                                                  │           │Changes not staged for commit:
+           │                                                                                  │           │  (use "git add <file>..." to update what will be committed)
+           │                                                                                  │           │  (use "git restore <file>..." to discard changes in working directory)
+           │                                                                                  │           │        modified:   lefthook.yml
+           │                                                                                  │           │
+           │                                                                                  │           │no changes added to commit (use "git add" and/or "git commit -a")
+           │                                                                                  │           │❯ g add .
+           │                                                                                  │           │❯ g commit -m 'fix lefthook'
+           │                                                                                  │           │[main c9d69f2] fix lefthook
+           │                                                                                  │           │ 1 file changed, 10 insertions(+)
+           │                                                                                  │           │❯ g st
+           │                                                                                  │           │On branch main
+           │                                                                                  │           │nothing to commit, working tree clean
+           │                                                                                  │           │❯ sudo lefthook install
+           │                                                                                  │           │Password:
+           │                                                                                  │           │Sorry, try again.
+           ╰──────────────────────────────────────────────────────────────────────────────────╯           │Password:
+                                        │                                                                 │sync hooks: ✔️  (commit-msg, pre-commit)
+                                        │                                                                 │
+                                        │                                                                 │  │  ~/Dev/STARTUP/MMFONTSHUB/v2/mmfonthub-v2 │   main !1      4s  │ 20.14.0  │ 09:00:17 PM  ─╮
+ INSERT   main  󰭎                                                      A   12  Top   1:10   21:02 │❯                                                                                                     ─╯

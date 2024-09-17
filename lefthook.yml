@@ -8,11 +8,12 @@ colors:
   yellow: "#F0E68C"
 
 pre-commit:
+  parallel: true
   commands:
     lint:
+      glob: "*.{js,ts,jsx,tsx}"
       run: yarn lint
-
-test:
+commit-msg:
   commands:
-    js-test:
-      run: yarn test
+    commitlint:
+      run: npx commitlint --edit {1}

@@ -1,7 +1,14 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
   "files": {
-    "ignore": [".next", "node_modules", ".vscode", "public", "next.config.mjs"]
+    "ignore": [
+      ".next",
+      "node_modules",
+      ".vscode",
+      "public",
+      "next.config.mjs",
+      "./utils/Rabbit.ts"
+    ]
   },
   "formatter": {
     "enabled": true,

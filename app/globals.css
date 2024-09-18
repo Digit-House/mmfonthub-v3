@@ -1,3 +1,5 @@
+@import url("./fontFace.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,7 +19,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-bebas), Helvetica, sans-serif;
 }
 
 @layer utilities {
@@ -33,5 +35,9 @@ body {
 
   .active {
     @apply bg-red-300;
+  }
+
+  .b-line {
+    @apply border-b-2 border-gray-50;
   }
 }

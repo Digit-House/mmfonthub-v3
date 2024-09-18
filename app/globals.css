@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #36393c;
     --foreground: #ededed;
   }
 }
@@ -23,5 +23,15 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer components {
+  .nav-item {
+    @apply w-[120px] h-full flex justify-center items-center relative;
+  }
+
+  .active {
+    @apply bg-red-300;
   }
 }
